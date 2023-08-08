@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>El Documento</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Hola Mundo</h1>
+			<div class="container">
+				<form method="post" action="/uploads" enctype="multipart/form-data" class="form">
+					<input class="form-control" type="file" name="myFile" />
+					<input class="form-control" type="file" name="myFile2" />
+					<input class="form-control" type="file" name="myFile3" />
+					<button type="submit" class="btn btn-primary">Enviar</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
